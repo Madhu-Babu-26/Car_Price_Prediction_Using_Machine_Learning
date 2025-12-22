@@ -34,36 +34,28 @@ The application follows a structured pipeline to ensure data integrity and predi
 1. 🧾 **User Input** – Features collected via Streamlit UI  
 2. ✅ **Data Validation** – Logical consistency checks  
 3. 🔄 **Preprocessing** – One-Hot Encoding & Feature Scaling (saved pipeline)  
-4. 🧠 **Model Inference** – Random Forest or ANN prediction  
+4. 🧠 **Model Inference** – Random Forest prediction  
 5. 💰 **Output** – Price inverse-transformed and displayed in **₹ INR**
 
 ---
 
 ## 🧠 Models Used
 
-### 1️⃣ Random Forest Regressor (Machine Learning 🌲)
+### Random Forest Regressor (Machine Learning 🌲)
 - Handles non-linear relationships effectively  
 - Robust to outliers and reduces overfitting  
 - ✅ **Best suited for:** General market trends & mid-range vehicles  
 
-### 2️⃣ Artificial Neural Network (Deep Learning 🤖)
-- Multi-layer dense neural network (TensorFlow/Keras)  
-- Learns complex hidden patterns in high-dimensional data  
-- ✅ **Best suited for:** Premium and modern vehicles  
-
----
 
 ## 🛠️ Tech Stack
 
 ### 🎨 Frontend & Deployment
 - ⚡ **Streamlit** – Interactive web dashboard  
-- 🎨 **HTML & CSS** – Custom glass-morphism styling  
 - 🎞️ **Lottie Animations** – Smooth UI animations  
 
 ### ⚙️ Backend & Machine Learning
 - 🐍 **Python** – Core programming language  
 - 🌳 **Scikit-learn** – Random Forest & preprocessing pipeline  
-- 🧠 **TensorFlow / Keras** – Deep Learning ANN  
 - 📊 **Pandas & NumPy** – Data manipulation & numerical computation  
 
 ---
@@ -120,7 +112,7 @@ flowchart LR
     A[Importing Libraries] --> B[Loading Car Price Dataset]
     B --> C[Data Cleaning & Feature Engineering]
     C --> D[Preprocessing: Encoding & Scaling]
-    D --> E[Model Training: Random Forest / ANN]
+    D --> E[Model Training: Random Forest]
     E --> F[Model Evaluation & Selection]
     F --> G[Prediction Output]
     G --> H[Deployment: Streamlit Web App]
