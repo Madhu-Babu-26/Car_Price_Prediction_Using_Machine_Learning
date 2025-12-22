@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=180&section=header&text=AI%20Powered%20Car%20Price%20Prediction&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=180&section=header&text=Car%20Price%20Prediction&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
 </p>
 
 
-**AutoPredict Pro** is an end-to-end **Machine Learning & Deep Learning web application** that predicts the **market value of used cars** based on technical specifications, usage details, and seller information.  
+**AutoPredict Pro** is an end-to-end **Machine Learning web application** that predicts the **market value of used cars** based on technical specifications, usage details, and seller information.  
 The system delivers **accurate, data-driven price estimates** through a **professional Streamlit interface**.
 
 ---
