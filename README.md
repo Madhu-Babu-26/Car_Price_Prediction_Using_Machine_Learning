@@ -98,13 +98,6 @@ The application follows a structured pipeline to ensure data integrity and predi
 - 🏢 **B2B Dashboard** – Bulk valuation tools for dealerships  
 
 ---
-
-## 👨‍💻 Author
-
-**Lomada Siva Gangi Reddy**  
-🎓 B.Tech CSE (Data Science), RGMCET (2021–2025)  
-🎯 Aspiring Data Analyst | Python • SQL • Power BI • Data Science  
-📍 Open to **Internships & Job Opportunities**
 ## 📌 Project Workflow
 
 ```mermaid
